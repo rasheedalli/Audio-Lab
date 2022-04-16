@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+<link href="../sound%20board/styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body bgcolor="brown">
+
+<audio id="myAudio">
+ 
+  <source src="Horse.mp3" type="audio/mp3">
+  
+</audio>
+<img alt="yes" height="201" src="hmr.png" width="341">
+
+<p>Click the buttons to play the sounds!!! </p>
+
+<button onclick="playAudio()" type="button">Horse1</button>
+<button onclick="playAudio()" type="button">Horse2</button>
+<button onclick="playAudio()" type="button">Horse3</button>
+ 
+
+<script>
+var x = document.getElementById("myAudio"); 
+
+function playAudio() { 
+  x.play(); 
+}
+</script>
+
+</body>
+</html>
